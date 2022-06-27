@@ -1,8 +1,8 @@
 import opencv-python as cv2 
-import numpy as np 
+import numpy as np,np2
 import time 
 
-# replace the red pixels ( or undesired area ) with 
+# replace the red pixels ( or undesired area ) with
 # background pixels to generate the invisibility feature. 
 
 ## 1. Hue: This channel encodes color information. Hue can be 
