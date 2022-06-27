@@ -27,7 +27,7 @@ capture_video = cv2.VideoCapture("video.mp4")
 # give the camera to warm up 
 time.sleep(1) 
 count = 0
-background = 0
+background = 10
 
 # capturing the background in range of 60 
 # you should have video that have some seconds 
