@@ -36,7 +36,7 @@ background = 10
 for i in range(60): 
 	return_val, background = capture_video.read() 
 	if return_val == False : 
-		continue
+		pass
 
 background = np.flip(background, axis = 1) # flipping of the frame 
 
